@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RSS3</string>
+    <string name="url1">https://www.rte.ie/news/rss/news-headlines.xml</string>
+    <string name="url2">https://www.independent.ie/breaking-news/rss/</string>
+</resources>
