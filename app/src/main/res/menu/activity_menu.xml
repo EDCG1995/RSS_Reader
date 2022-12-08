@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+    <item
+        android:id="@+id/searchRSS"
+        android:title="Search for new RSS Feed"/>
+<!--    <item-->
+<!--        android:id="@+id/refreshRSS"-->
+<!--        android:title="Refresh RSS Feed"/>-->
+<!--    <item-->
+<!--        android:id="@+id/limitRSS"-->
+<!--        android:title="Limit amount of Entries"/>-->
+
+</menu>
