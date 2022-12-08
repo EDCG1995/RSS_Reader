@@ -83,8 +83,8 @@ public class MyJobService extends JobService {
                         Log.d("TIMESTAMP", "checkForNewFeed: " + "New feed");
                         NotificationCompat.Builder builder = new NotificationCompat.Builder(MyJobService.this, "MyNotification")
                                 .setSmallIcon(R.drawable.ic_launcher_background)
-                                .setContentTitle("No new feed")
-                                .setContentText("No new feed")
+                                .setContentTitle("New feed")
+                                .setContentText("There's a new feed!!!")
                                 .setPriority(NotificationCompat.PRIORITY_DEFAULT)
                                 .setAutoCancel(true);
                         NotificationManagerCompat notificationManager = NotificationManagerCompat.from(MyJobService.this);
