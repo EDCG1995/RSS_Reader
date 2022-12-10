@@ -54,6 +54,10 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * Inflates the toolbar implemented
+     *
+     *
+     * Traidev Official for Custom toolbars in android
+     * https://www.youtube.com/watch?v=jkRv1pjZwi0&t=531s
      * @param menu
      * @return
      */
@@ -200,6 +204,10 @@ public class MainActivity extends AppCompatActivity {
          */
         @Override
         protected Exception doInBackground(Integer... integers) {
+            /**
+             * Code club Master tutorial on how to read data from an RSS feed:
+             * https://www.youtube.com/watch?v=_rl7X172AWk&t=1425s&ab_channel=CodeclubMaster
+             */
             try {
                 URL url = new URL(mainurl);
                 XmlPullParserFactory factory = XmlPullParserFactory.newInstance();

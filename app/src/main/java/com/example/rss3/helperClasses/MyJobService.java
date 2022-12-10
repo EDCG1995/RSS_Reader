@@ -18,7 +18,11 @@ import java.net.URLConnection;
 import java.util.ArrayList;
 
 /**
- * custom JobService class that searches
+ * custom JobService class that searches of new timestamps
+ *
+ *
+ *
+ * Coding in Flow for JobScheduler https://www.youtube.com/watch?v=3EQWmME-hNA
  */
 public class MyJobService extends JobService {
     private static final String Tag = "MyJobService";
@@ -64,7 +68,10 @@ public class MyJobService extends JobService {
                         timstamps.add(pubdate[0].trim());
                     }
                     checkedTimestamp = timstamps.get(0).trim();
-
+                    /**
+                     * Easy Tuto for Notifications in Android
+                     * https://www.youtube.com/watch?v=4BuRMScaaI4
+                     */
                     if(timestamp.equals(checkedTimestamp)){
                         Log.d("TIMESTAMP", "checkForNewFeed: " + timestamp);
                         Log.d("TIMESTAMP", "checkForNewFeed: " + timstamps.get(0));

@@ -21,6 +21,10 @@ import com.google.firebase.auth.FirebaseAuth;
 
 /**
  * LoginActivity is the login page for the application. It uses Firebase authentication.
+ *
+ *
+ * CodeWithMazn for Login and Registration on firebase:
+ * https://www.youtube.com/watch?v=Z-RE1QuUWPg , https://www.youtube.com/watch?v=KB2BIm_m1Os&t=218s
  */
 public class LoginActivity extends AppCompatActivity {
     EditText email;
