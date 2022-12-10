@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "503280527905",
+    "project_id": "rss-reader-dd465",
+    "storage_bucket": "rss-reader-dd465.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:503280527905:android:d51022a0b53454c45f1160",
+        "android_client_info": {
+          "package_name": "com.example.rss3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "503280527905-235nmn56uql8p4k7sqcqqmmqn53n9o9j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXxaJvQOuafn5P7LZ1SL6qLNm6Dssu6FQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "503280527905-235nmn56uql8p4k7sqcqqmmqn53n9o9j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

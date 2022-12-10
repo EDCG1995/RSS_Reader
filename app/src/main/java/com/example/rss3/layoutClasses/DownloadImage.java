@@ -1,4 +1,4 @@
-package com.example.rss3;
+package com.example.rss3.layoutClasses;
 
 import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
@@ -8,6 +8,7 @@ import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
+@SuppressWarnings("ALL")
 public class DownloadImage extends AsyncTask<String, Void, Drawable> {
     CustomViewHolder holder = null;
 
@@ -17,15 +18,10 @@ public class DownloadImage extends AsyncTask<String, Void, Drawable> {
     @Override
     protected Drawable doInBackground(String... strings) {
         try {
-
             HttpURLConnection connection = (HttpURLConnection) new URL(strings[0]).openConnection();
-
-
             connection.connect();
-            Log.d("TRY:", "doInBackground: " + strings[0]);
             InputStream input = connection.getInputStream();
-            Drawable d = Drawable.createFromStream(input, "src name");
-            return d;
+            return Drawable.createFromStream(input, "src name");
         } catch (IOException e) {
             Log.d("MESSAGE", "doInBackground: " + e.getMessage());
             return null;

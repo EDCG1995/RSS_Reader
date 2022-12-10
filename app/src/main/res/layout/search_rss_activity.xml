@@ -2,21 +2,43 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
     android:orientation="vertical"
     android:paddingLeft="10dp"
     android:paddingTop="200dp"
     android:paddingRight="10dp">
 
+    <TextView
+        android:id="@+id/textView2"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="178dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:text="RSS READER"
+        android:textSize="50dp" />
+
     <EditText
         android:id="@+id/newURL"
+        android:inputType="textUri"
         android:layout_width="match_parent"
-        android:layout_height="50dp" />
+        android:layout_height="50dp"
+        android:hint="Enter URL here" />
+
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="entry #"
+        android:inputType="number" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="false"
+        android:layout_height="0dp"
         android:layout_weight="1"
         android:onClick="searchRSSWebsite"
 

@@ -8,9 +8,9 @@
     <item
         android:id="@+id/searchRSS"
         android:title="Search for new RSS Feed"/>
-<!--    <item-->
-<!--        android:id="@+id/refreshRSS"-->
-<!--        android:title="Refresh RSS Feed"/>-->
+    <item
+        android:id="@+id/shechuleStop"
+        android:title="Stop searching for new feeds"/>
 <!--    <item-->
 <!--        android:id="@+id/limitRSS"-->
 <!--        android:title="Limit amount of Entries"/>-->
